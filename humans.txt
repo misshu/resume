@@ -1,0 +1,30 @@
+/* TEAM */
+Owner/Creator: Toon Claes
+Site:          iotcl.net
+Twitter:       @To1ne
+Location:      Herentals, Belgium
+
+
+/* 3RD PARTY */
+
+inuit.css
+    Author:    Harry Roberts
+    URL:       inuitcss.com
+    Twitter:   @inuitcss
+
+
+Silk icons
+    Author:    Mark James
+    URL:       famfamfam.com
+    Twitter:   @markjames
+
+
+Social Media icons
+    Author:    Paul Robert Lloyd
+    URL:       paulrobertlloyd.com
+    Twitter:   @paulrobertlloyd
+
+		
+
+
+humanstxt.org

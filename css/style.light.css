@@ -1,0 +1,363 @@
+/*------------------------------------*\
+  COLORS
+\*------------------------------------*/
+/*
+  bar:         #4080c4;
+  text:        #4da626;
+  qoute:       #595959;
+  
+  background:  #d4d8d2 --> #eef0ee;
+  headers:     #1f3014;
+*/
+
+/*------------------------------------*\
+  MAIN
+\*------------------------------------*/
+html{
+    min-height:100%;
+    background: #FFF;
+    color:#1f3014;
+    font-family: "Lucida Grande",Verdana,微软雅黑,sans-serif;
+}
+.wrapper{
+  margin-top:1em;
+}
+
+h1{
+    /* TODO tune shade
+    text-shadow:0 -1px 0 rgba(0,0,0,0.5), 0 1px 0 rgba(255,255,255,0.25);
+    */
+}
+
+header blockquote{
+    clear:both;
+    margin-top:100px;
+	text-align:center;
+    font-size:1.5em;
+    line-height:2.5em;
+}
+
+nav{
+    display:none; /* navigation here is overdone and I don't know how to make it look beautiful */
+    margin-top:10px;
+}
+
+nav ul{
+    text-align:center;
+}
+
+nav ul a{
+    display:block;
+    width:100%;
+    border-bottom:1px solid #4080c4;
+}
+nav ul a:hover, a i.icon-li{
+    border:none;
+    text-decoration:none;
+}
+
+h1{
+    font-weight:bold;
+    font-size:2.5em;
+    line-height:2em;
+}
+a, a:visited{
+    color:inherit;
+    opacity:1; /* override inuit.css */
+}
+
+header #photo{
+    float:right;
+    padding:0.2em;
+    border:0.1em solid rgb(64,128,196);
+}
+address{
+    float:right!important;
+    margin-right:0!important;
+    font-style:italic;
+    font-family:"Georgia", "Times New Roman", serif;
+    line-height:1.7em;
+}
+#contact{
+    float:right;
+    margin-right:0.5em;
+}
+#contact span {
+    float:right;
+    clear:right;
+    text-align:right;
+}
+
+blockquote{
+    color:#595959;
+    text-indent:0;
+    font-style:italic;
+}
+
+address,h2,h3{
+    color:#4080c4;
+}
+p{
+    margin-bottom:1.2em;
+}
+
+article{
+    margin-top:20px
+    clear:both;
+}
+
+section{
+    margin-left:12%;
+}
+
+section h2{
+  margin-bottom:0.5em;
+}
+.column{
+    float:left;
+    margin: 0.5em 2% 0.5em -12%;
+    width:16%;
+    height:0.5em;
+    background:#4080c4;
+}
+
+abbr{
+    border-bottom:1px dotted;
+}
+
+#bio ul{
+    margin-bottom:1.5em;
+}
+#bio li{
+    display:block;
+    height:26px;
+    list-style-type:none;
+}
+
+#bio li a{
+    display:block;
+    height:inherit;
+    line-height:26px;
+}
+#bio li span{
+    float: left;
+    margin: 0 6% 0 -30%;
+    width: 40%;
+    text-align: right;
+}
+#tech p, #edu p, #work p, #project p{
+    margin-left:6%;
+    line-height:1.8em;
+}
+#tech ul,#work ul,#project ul{
+  margin:-2% 0 1% 9%;
+  list-style-type:circle;
+}
+.timeline{
+    float:left;
+    clear:both;
+    margin: 0 0 0 -12%;
+    height:2em;
+    width: 16%;
+    font-size: 80%;
+    text-align:center;
+}
+.sup, .sub{
+   color:#4080c4;
+   font-size:0.5em;
+}
+.ub11,.ub12,.ub13,.ub14,.ub15,.ub16{
+   text-align:right;
+}
+.up10, .ub10{
+   margin-left:-12%;
+}
+.up11, .ub11{
+   margin-left:-10%;
+}
+.up12, .ub12{
+   margin-left:-8%;
+}
+.up13, .ub13{
+   margin-left:-6%;
+}
+.up14, .ub14{
+   margin-left:-4%;
+ }
+.up15, .ub15{
+   margin-left:-2%;
+ }
+.up16, .ub16{
+   margin-left:0;
+ }
+.tlcolor{
+  display: block;
+  height: 0.4em;
+  background: rgb(64,128,196); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(64,128,196,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(64,128,196,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgba(64,128,196,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgba(64,128,196,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgba(64,128,196,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+  background: linear-gradient(to right,  rgba(64,128,196,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4080C4', endColorstr='#FFFFFF',GradientType=1 ); /* IE6-8 */
+}
+#tl-1{
+  display: block;
+  width: 12%;
+  height: 0.4em;
+  background: rgb(64,128,196);
+}
+#tl-2{
+  width: 16%;
+}
+#tl-3{
+  margin-top:-0.4em;
+  margin-left:-8%;
+  width: 12%;
+  height: 0.4em;
+}
+#tl-4{
+  margin-top:-0.4em;
+  margin-left:-8%;
+  width: 4%;
+  height: 0.4em;
+  background: rgb(64,128,196);
+}
+#tl-5{
+  margin-top:-0.4em;
+  margin-left:0;
+  width: 3%;
+  height: 0.4em;
+  background: rgb(64,128,196);
+}
+#tl-6{
+  margin-top:-0.4em;
+  margin-left:3%;
+  width: 1%;
+  height: 0.4em;
+}
+#tll-1{
+  margin-top:-0.4em;
+  margin-left:-0.1%;
+  width:4.1%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-3{
+  width:4%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-41{
+  width:4%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-42{
+  margin-top:-0.4em;
+  margin-left:-4%;
+  width:8%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-51{
+  width:12.1%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-52{
+  margin-top:-0.4em;
+  margin-left:3%;
+  width:1%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#tll-6{
+  width:15.1%;
+  height:0.3em;
+  border-bottom:0.1em solid #AAA;
+}
+#hobby li span,#resume li span{
+    float: left;
+    margin: 0 2% 0 -30%;
+    width: 34%;
+    text-align: right;
+}
+#fork{
+    position:fixed;
+    top:0;
+    left:0;
+    _position:absolute;
+}
+
+/*------------------------------------*\
+  DETAILS
+\*------------------------------------*/
+::-moz-selection{
+    background:#4080c4;
+    color:#ffffff;
+    text-shadow:none;
+}
+::selection{
+    background:#4080c4;
+    color:#ffffff;
+    text-shadow:none;
+} 
+a:link{
+    -webkit-tap-highlight-color:#4080c4;
+}
+
+/*------------------------------------*\
+  IMAGES
+\*------------------------------------*/
+#logo{
+    margin-bottom:1.5em;
+}
+
+/*------------------------------------*\
+  NARROW
+\*------------------------------------*/
+/*
+  CSS for tablets and narrower devices
+  */
+
+@media (min-width:721px) and (max-width:960px){ }
+/*--- END NARROW ---*/
+
+/*------------------------------------*\
+  MOBILE
+\*------------------------------------*/
+/*
+  CSS for mobile devices.
+  Linearise it!
+  */
+
+@media (max-width:720px){
+    body{
+	font-size:0.75em;
+    }
+    #fullname{
+      width:10em!important;
+    }
+    header h1{
+        margin-bottom:-2em;
+        font-size:2em;
+    }
+    header blockquote{
+        margin-top:0px;
+    }
+    #photo {
+      width:5em;
+    }
+    #bio li span{
+        float: left;
+        margin: 0 2% 0 -33%;
+        width: 37%;
+        text-align: right;
+    }
+   #fork{
+     display:none;
+   }
+}
+/*--- END MOBILE ---*/
